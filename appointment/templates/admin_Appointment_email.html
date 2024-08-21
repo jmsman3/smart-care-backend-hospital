@@ -1,0 +1,12 @@
+<div
+    style="border: 1.5px solid gray; border-radius: 8px; box-shadow: 8px 8px 16px gray;; padding: 16px; max-width: 600px; margin: auto; background-color: #f9f9f9;">
+    <h1>Hello, <span style="color: green;">{{user.first_name}} {{user.last_name}}</span></h1>
+    <p>Hope, you are doing well. Recently you requested an online appointment with <span
+            style="color: green;"><b>{{doctor.user.first_name}} {{doctor.user.last_name}}</b></span></p>
+    <p>Your Doctor is waiting for you. Join the below Meet link as soon as possible:</p>
+    <p>Meet Link: <a href="{{doctor.meet_link}}" target="_blank">{{doctor.meet_link}}</a></p>
+    <br />
+    <hr />
+    <p>Thanks for using our platform.</p>
+    <h2 style="color: rgb(0, 0, 0);">SmartCare</h2>
+</div>
