@@ -31,7 +31,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://smart-care-5ow3.onrender.com',  # Replace with your actual domain
+    'http://127.0.0.1',  # Local development
+   
+]
 
 # Application definition
 
